@@ -1,0 +1,24 @@
+# paket hasil npm install
+node_modules/
+
+# file sementara Expo
+.expo/
+dist/
+web-build/
+
+# file rahasia lokal
+.env*.local
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# folder native hasil generate
+/ios
+/android
+
+# lain-lain
+npm-debug.*
+.DS_Store
